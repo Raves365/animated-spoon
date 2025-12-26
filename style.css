@@ -1,0 +1,738 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Merriweather, Arial, sans-serif;
+}
+.darker{
+    background-color: rgb(84, 82, 82);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+}
+@media(max-width:600px){
+    .darker{
+    width: auto;
+}
+}
+.green1{
+    background-color: rgb(74, 237, 99);
+    display: inline-block;
+    padding: 15px;
+}
+
+.green{
+    background-color:  rgb(50, 228, 77);
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+.buy{
+    list-style: none;
+    margin-left: 650px;
+}
+@media(max-width:600px){
+    .buy{margin-left: 350px ;
+    padding-right: auto;}
+}
+ 
+
+.amount{
+    margin: 0;
+    background-color: grey;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 25px;
+    left: 15px;
+    font-size:12px;
+    color: white;
+    padding: 5px;
+}
+.start{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    margin-left: 15px;
+    
+}
+::placeholder{
+    color: white;
+    
+}
+.posre{
+    position: relative;
+}
+.posre:hover .mtdiv{
+    
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+.posab{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    opacity: 0 ;
+    right: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    
+}
+.posre:hover .posab{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.test{
+    position: relative;
+}
+.test:hover{
+    opacity: 0.5;
+}
+
+.buy1{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.posre1{
+    position: relative;
+}
+.posre1:hover .mtdiv{
+    
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+.posab1{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    opacity: 0 ;
+    right: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    
+}
+.posre1:hover .posab1{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.test1{
+    position: relative;
+}
+.test1:hover{
+    opacity: 0.5;
+}
+.amount11{
+    margin: 0;
+    background-color: grey;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 25px;
+    left: 15px;
+    font-size: 12px;
+    color: white;
+    padding: 4px 7px;
+}
+
+
+
+.sear{
+    margin-left: 30px;
+}
+.backpic{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80dvh;
+    margin-bottom: 50px;
+    padding-top: 180px;
+    background-color: gainsboro;
+    background-position:center;
+    width:auto;
+    background-repeat: no-repeat;
+    background-image:url("picx.img/introductory-slider-01.jpg");
+}
+@media (max-width:600px){
+    .backpic{
+        width: auto;
+    }
+}
+
+.notwhite{
+    text-align: center;
+    color: white;
+    
+}
+
+.biq{
+    font-size: 25px;
+    padding-top: 20px;
+    line-height: 15px;
+    margin: 0;
+    
+}
+.from{
+    font-style: italic;
+}
+.holly{
+    color: rgb(197, 197, 197);
+}
+.linew{
+    width: 180px;
+    text-align: center;
+    border-bottom: 2px solid rgb(198, 193, 193);
+    padding-top: 40px;
+    margin-left: 42%;
+    margin-bottom: 40px;
+    
+    
+}
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.money1{
+    font-size: 13px;
+}
+.short{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin-top: 136px;
+    margin-left: 120px;
+}
+.blk{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.notblk{
+    color: grey;
+    line-height: 25px;
+    font-size: 15px;
+    
+    padding: 0;
+}
+.line2{
+    border-bottom: 1px solid rgb(239, 236, 236);
+    display: inline-block;
+    width: 100px;
+    
+}
+.notblk1{
+    color: grey;
+    line-height: 25px;
+    font-size: 15px;
+    
+   margin-bottom: 0;
+}
+.position{
+    margin-left: 74px;
+    margin-bottom: 74px;
+   
+}
+.flexs{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+@media(max-width :600px){
+    .flexs{ display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+.hello{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.hello:hover{
+color: green;
+}
+
+.num{
+    font-size: 14px;
+    color: grey;
+}
+.pic{
+    margin-bottom: 20px;
+
+}
+.related{
+    font-size: 12px;
+    color: grey;
+    margin-top: 10px;
+    margin-left:  30px;
+    padding: 0;
+    margin-bottom: 0 ;
+}
+.sons{
+    font-size: 25px;
+    margin-left:  30px;
+    margin-top: 10px;
+}
+.flex11{
+    position: relative;
+}
+.flex11:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.overlay{
+    position: absolute;
+    
+    opacity: 0 ;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom:23px;
+    
+
+}
+.playy{ 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex11:hover .overlay{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.674);
+}
+.sidebar{
+    position: fixed;
+    background-color: rgb(84, 82, 82);
+    align-items: center;
+    padding: 0;
+    width: 74px;
+    left: 0;
+    top: 77px;
+    height: 87%;
+    z-index: 100;
+}
+
+.lisb{
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    
+}
+.lis1{
+    padding: 25px 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(104, 94, 94);
+}
+.lisab {
+    position: absolute;
+    visibility: hidden;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 36px;
+    padding-right: 14px;
+    bottom:0 ;
+    left:0;
+    top: 0;
+    background-color: rgb(84, 82, 82);
+
+}
+.lis1:hover{
+    cursor: pointer;
+
+    
+}
+.lis1:hover .lisab{
+    visibility: visible;
+    transition: 0.19s;
+   
+}
+
+.lis11{
+    padding: 25px 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(104, 94, 94);
+}
+.lisab1{
+    position: absolute;
+    visibility: hidden;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 36px;
+    padding-right: 22px;
+    bottom:0 ;
+    left:0;
+    top: 0;
+    background-color: rgb(84, 82, 82);
+
+}
+.lis11:hover{
+    cursor: pointer;
+
+    
+}
+.lis11:hover .lisab1{
+    visibility: visible;
+    transition: 0.19s;
+   
+}
+.downpic{
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    height: 78px;
+    padding: 0;
+
+}
+.downfix{
+    position: fixed;
+    bottom: 0px;
+    left: 73px;
+    height: 78px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: rgb(96, 94, 94);
+}
+@media(max-width:600px){
+    .downfix{
+    width: auto;
+    position: fixed;
+    bottom: 0px;
+    height: 78px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}}
+.mumu{
+    margin: 0;
+    padding:  20px 30px;
+    color: white;
+    font-size: 14px;
+    margin-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ddf{
+    color: rgb(126, 123, 123);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.volume{
+    padding-bottom:30px ;
+    margin-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: rgb(117, 116, 116);
+    
+}
+.playboi{
+
+    padding: 20px 25px;
+ 
+    margin-left: 120px;
+    border-left:1px solid rgb(170, 166, 166);
+    border-right: 1px solid rgb(170, 166, 166);
+}
+.all{
+    border-left:1px solid rgb(170, 166, 166);
+    
+}
+.time{
+    color: rgb(126, 123, 123);
+    padding:20px;
+    margin: 0;
+    text-align: center;
+    
+}
+.justline{
+    border-top:2px solid  rgb(126, 123, 123);
+    width: 550px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.icon1  {
+  color:  rgb(126, 123, 123);
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 40px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon1:hover {
+    
+color: green;
+}
+.iconpi{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.similar{
+    background-color: rgb(255, 249, 249);
+}
+.featured{
+    display: flex;
+    padding: 20px;
+    gap: 900px;
+}
+.dio{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.dio:hover{
+    color: green;
+}
+.fa-cloud-plus{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: gray;
+}
+.almost{
+    background-image: url("picx.img/action-call-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-top: 240px;
+    padding-bottom: 30px;
+    
+}
+
+@media (max-width:600px) {
+    .almost{
+        width: auto;
+    }
+}
+.wid{
+    width: 880px;
+   text-align: center;
+   padding-left: 120px;
+   line-height: 30px;
+}
+.hhh1{
+    font-size: 45px;
+    letter-spacing: 3px;
+
+}
+.stylle{
+    font-family:cursive;
+    font-size: 35px;
+    font-style: italic;
+}
+.soshe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.disc{
+    background-color: rgb(73, 165, 73);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.disc:hover{
+    opacity: 0.45;
+    transition: 0.15s;
+}
+.allpi{
+    display: flex;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    margin-left: 50px;
+    vertical-align: top;
+    line-height: 35px;
+    margin-top: 20px;
+
+}
+.upa{
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.upa:hover{
+    color: green;
+    transition: 0.15s;
+}
+.smlla{
+    text-decoration: none;
+    color: grey;
+}
+.smlla:hover{
+    color: green;
+    transition: 0.15s;
+}
+.smll{
+    font-size: 13px;
+    color: grey;
+}
+.aap{
+    padding-right: 90px ;
+    margin-bottom: 20px;
+    
+}
+.fa-eye{
+    color: rgb(158, 152, 152);
+    padding-top: 5px;
+    padding-bottom: 2px;
+    height: fit-content;
+    display:inline ;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-eye:hover{
+    color: green;
+    border-bottom: 2px solid green;
+
+}
+.called{
+    margin: 0;
+}
+.lasdd{
+    display: flex;
+    background-color: rgba(229, 228, 228, 0.347);
+    gap:15px;
+    justify-content: center;
+    padding: 80px;
+}
+.realdiv{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr ;
+    justify-content: center;
+    height: 380px;
+    color: white;
+    border-bottom: 1px solid rgb(122, 121, 121);
+    background-color: rgb(84, 82, 82);
+}
+.mee1{
+    background-color: rgba(229, 228, 228, 0.347);
+    padding: 8px 10px;
+    margin-left: 50px;
+    display: inline-block;
+    
+    
+    border-radius: 50px;
+    border: 3px solid white;
+}
+.mee{
+    
+}
+.divv12{
+    font-size: 19px;
+    padding: 20px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.newsletter{
+    border-left: 1px solid rgb(122, 121, 121);
+    border-right: 1px solid rgb(122, 121, 121);
+    padding: 30px;
+    
+}
+.sufo{
+    margin-bottom: 0;
+    font-size: 11px;
+    color: rgb(136, 134, 134);
+}
+.news{
+    margin-top: 4px;
+    font-size: 25px;
+}
+.email{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 11px;
+    padding-bottom:10px ;
+    width: 100%;
+    outline: none;
+    
+}
+.email:focus{
+    color: white;
+}
+.divv21{
+    padding: 30px 20px ;
+    
+}
+.laul{
+    list-style: none;
+    line-height: 40px;
+    font-size: 15px;
+}
+.la{
+    text-decoration: none;
+    color: rgb(185, 181, 181);
+    font-size: 11px;
+    line-height: 50px;
+}
+.la:hover{
+    color: green;
+    transition: 0.15s;
+}
+.divv1{
+    padding: 60px 40px;
+}
+.jamiu1{
+    background-color: rgb(84, 82, 82);
+   
+}
+.jamiu{
+    text-align: center;
+    margin-top: 0;
+    padding: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+.jamiu a{
+color: rgb(42, 92, 179);
+text-decoration: none;
+}
+.jamiu a:hover{
+    color: green;
+}
+
+
+
+
+
